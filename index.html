@@ -32,12 +32,13 @@
   </header>
   <main>
     <section class="card">
-      <strong>Short version:</strong> Instant text cleanup can run locally on your device. AI features may send the text you submit to our backend and Google Gemini for processing. We do not intend to permanently store raw user text on our servers.
+      <strong>Short version:</strong> Instant text cleanup can run locally on your device. AI features may send the text you submit to our backend and Google Gemini for processing. If you use history or favorites, your input and result may be stored with your account so they can sync across devices and be deleted by you.
     </section>
 
     <h2>1. Data We Process</h2>
     <ul>
       <li>Text you paste or type into the app for AI-powered actions.</li>
+      <li>Saved history and favorite items, including the original input, generated output, action name, and creation time.</li>
       <li>Basic account information if you sign in, such as email or provider identifier.</li>
       <li>Usage metadata such as action type, request time, app version, language, and usage counts.</li>
       <li>Crash and diagnostic data needed to improve reliability.</li>
@@ -51,8 +52,9 @@
 
     <h2>3. Storage and Retention</h2>
     <ul>
-      <li>Local history is stored on your device under the active account ID by default.</li>
-      <li>Raw text is not intended to be permanently stored on our servers.</li>
+      <li>History and favorites may be stored under your account ID to support account-based access and cross-device sync.</li>
+      <li>You can clear history in the app and request account or data deletion.</li>
+      <li>Raw text is not sent to analytics logs and should not be stored in backend request logs.</li>
       <li>Temporary task data, if needed for processing, should be deleted when no longer necessary.</li>
       <li>Usage metadata may be stored for limits, abuse prevention, analytics, and service quality.</li>
     </ul>
